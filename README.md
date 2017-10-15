@@ -16,4 +16,5 @@ Java 3级培训课程笔记
 ```
 
 ## 项目介绍
-1. java.learn 包开头，每课程一个子包；
+1. ConquerJava.Learn 包开头，每课程一个子包；
+2. 默认需要以来 Log4j 包，替代System.out，还可以带文件日志；
