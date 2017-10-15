@@ -4,7 +4,7 @@ import org.apache.log4j.Logger;
 
 /**
  * 第三课 Java多线程
- * Runnable 扩展类
+ * Runnable 接口扩展类测试
  * @author 		Django
  * @date		2017年10月15日
  */
@@ -43,7 +43,15 @@ public class RunnableClass implements Runnable {
 
 
 	public void run() {
-		for (int i=0;i<10000;i++) {
+		for (int i=0;i<100;i++) {
+			//要用sleep必须使用现将捕获
+			try {
+				Thread.sleep(10);
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				logger.debug("中断异常");
+				e.printStackTrace();
+			}
 			logger.info(String.format("%s: count to:%d",this.name,i));
 		}
 	}
