@@ -9,9 +9,11 @@ Java 3级培训课程笔记
 2. 修改编辑器字体Consolas，一定要设置为中文的字体号，否则windows下中文会变得异常；
 3. 设置Maven仓库，用阿里云的仓库，可以大大加快依赖包的下载速度；
 4. 快捷键备忘：
-  1. 格式化代码： Command(CTRL) + Shift + F
-  2. 自动补全：Alt + /
-  3. 生成代码： Command(CTRL) + Alt + S
+```
+格式化代码： Command(CTRL) + Shift + F
+自动补全：Alt + /
+生成代码： Command(CTRL) + Alt + S
+```
 
 ## 项目介绍
 1. java.learn 包开头，每课程一个子包；
