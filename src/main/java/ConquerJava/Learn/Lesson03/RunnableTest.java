@@ -14,16 +14,16 @@ import ConquerJava.Learn.UtilAndHelper;
  * @author Django
  * @date 2017年10月15日
  */
-public class RunnableClass implements Runnable {
+public class RunnableTest implements Runnable {
 	// 日志工具
-	final static Logger logger = Logger.getLogger(RunnableClass.class);
+	final static Logger logger = Logger.getLogger(RunnableTest.class);
 
 	public static void main(String[] args) throws InterruptedException /* thread.join必须要用的中断异常 */
 	{
 		logger.info("RunnableClass Started.");
 
-		RunnableClass running1 = new RunnableClass("Jack");
-		RunnableClass running2 = new RunnableClass("Rose");
+		RunnableTest running1 = new RunnableTest("Jack");
+		RunnableTest running2 = new RunnableTest("Rose");
 		Thread t1 = new Thread(running1);
 		Thread t2 = new Thread(running2);
 		Thread t11 = new Thread(running1);
@@ -43,7 +43,7 @@ public class RunnableClass implements Runnable {
 	private String name;
 	private int x = 100;
 
-	public RunnableClass(String name) {
+	public RunnableTest(String name) {
 		this.name = name;
 	}
 
