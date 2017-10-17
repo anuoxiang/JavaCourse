@@ -2191,3 +2191,35 @@
 2017-10-17 13:21:40 INFO  ThreadClass:50 - 张三: count to:98
 2017-10-17 13:21:40 INFO  ThreadClass:47 - 张三 让步了
 2017-10-17 13:21:40 INFO  ThreadClass:50 - 张三: count to:99
+2017-10-17 21:37:24 INFO  DaemonTest:18 - 程序运行结束！
+2017-10-17 21:37:24 INFO  DaemonTest:32 - [Thread[Thread-0,5,main]] 运行中
+2017-10-17 21:37:25 INFO  DaemonTest:32 - [Thread[Thread-0,5,main]] 运行中
+2017-10-17 21:37:25 INFO  DaemonTest:50 - [Thread[Thread-1,5,main]]守护进程运行中……
+2017-10-17 21:37:25 INFO  DaemonTest:32 - [Thread[Thread-0,5,main]] 运行中
+2017-10-17 21:37:26 INFO  DaemonTest:32 - [Thread[Thread-0,5,main]] 运行中
+2017-10-17 21:37:26 INFO  DaemonTest:50 - [Thread[Thread-1,5,main]]守护进程运行中……
+2017-10-17 21:37:26 INFO  DaemonTest:32 - [Thread[Thread-0,5,main]] 运行中
+2017-10-17 21:37:27 INFO  DaemonTest:32 - [Thread[Thread-0,5,main]] 运行中
+2017-10-17 21:37:27 INFO  DaemonTest:50 - [Thread[Thread-1,5,main]]守护进程运行中……
+2017-10-17 21:37:27 INFO  DaemonTest:32 - [Thread[Thread-0,5,main]] 运行中
+2017-10-17 21:37:28 INFO  DaemonTest:32 - [Thread[Thread-0,5,main]] 运行中
+2017-10-17 21:37:28 INFO  DaemonTest:50 - [Thread[Thread-1,5,main]]守护进程运行中……
+2017-10-17 21:37:28 INFO  DaemonTest:32 - [Thread[Thread-0,5,main]] 运行中
+2017-10-17 21:37:29 INFO  DaemonTest:32 - [Thread[Thread-0,5,main]] 运行中
+2017-10-17 21:37:29 INFO  DaemonTest:50 - [Thread[Thread-1,5,main]]守护进程运行中……
+2017-10-17 21:39:26 INFO  DaemonTest:37 - [Thread[Thread-0,5,main]] 运行中
+2017-10-17 21:39:27 INFO  DaemonTest:37 - [Thread[Thread-0,5,main]] 运行中
+2017-10-17 21:39:27 INFO  DaemonTest:55 - [Thread[Thread-1,5,main]]守护进程运行中……
+2017-10-17 21:39:27 INFO  DaemonTest:37 - [Thread[Thread-0,5,main]] 运行中
+2017-10-17 21:39:28 INFO  DaemonTest:37 - [Thread[Thread-0,5,main]] 运行中
+2017-10-17 21:39:28 INFO  DaemonTest:55 - [Thread[Thread-1,5,main]]守护进程运行中……
+2017-10-17 21:39:28 INFO  DaemonTest:37 - [Thread[Thread-0,5,main]] 运行中
+2017-10-17 21:39:29 INFO  DaemonTest:37 - [Thread[Thread-0,5,main]] 运行中
+2017-10-17 21:39:29 INFO  DaemonTest:55 - [Thread[Thread-1,5,main]]守护进程运行中……
+2017-10-17 21:39:29 INFO  DaemonTest:37 - [Thread[Thread-0,5,main]] 运行中
+2017-10-17 21:39:30 INFO  DaemonTest:37 - [Thread[Thread-0,5,main]] 运行中
+2017-10-17 21:39:30 INFO  DaemonTest:55 - [Thread[Thread-1,5,main]]守护进程运行中……
+2017-10-17 21:39:30 INFO  DaemonTest:37 - [Thread[Thread-0,5,main]] 运行中
+2017-10-17 21:39:31 INFO  DaemonTest:37 - [Thread[Thread-0,5,main]] 运行中
+2017-10-17 21:39:31 INFO  DaemonTest:55 - [Thread[Thread-1,5,main]]守护进程运行中……
+2017-10-17 21:39:32 INFO  DaemonTest:23 - 程序运行结束！
