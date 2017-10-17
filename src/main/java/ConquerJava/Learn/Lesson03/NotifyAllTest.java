@@ -15,9 +15,9 @@ import org.apache.log4j.Logger;
 public class NotifyAllTest extends Thread {
 	// 日志工具
 	final static Logger logger = Logger.getLogger(NotifyAllTest.class);
-
+	// 自线程执行对象
 	Calculator c;
-
+	
 	public NotifyAllTest(Calculator c) {
 		this.c = c;
 	}
@@ -36,7 +36,7 @@ public class NotifyAllTest extends Thread {
 	public static void main(String[] args) {
 		Calculator c = new Calculator();
 		
-		//启动三个父线程
+		//启动三个父线程，并把自线程执行对象扔进线程监控执行
 		new NotifyAllTest(c).start();
 		new NotifyAllTest(c).start();
 		new NotifyAllTest(c).start();
