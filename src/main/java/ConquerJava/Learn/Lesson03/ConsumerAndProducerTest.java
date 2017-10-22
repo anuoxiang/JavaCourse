@@ -4,8 +4,6 @@ import java.util.Random;
 
 import org.apache.log4j.Logger;
 
-import ConquerJava.Learn.UtilAndHelper;
-
 /**
  * 第三课 Java多线程
  *
@@ -17,7 +15,7 @@ import ConquerJava.Learn.UtilAndHelper;
  */
 public class ConsumerAndProducerTest {
 	// 日志工具
-	final static Logger logger = Logger.getLogger(DaemonTest.class);
+	final static Logger logger = Logger.getLogger(ConsumerAndProducerTest.class);
 
 	public static void main(String[] args) {
 		Warehouse w = new ConsumerAndProducerTest().new Warehouse(20);
