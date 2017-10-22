@@ -23,9 +23,9 @@ public class RunnableTest implements Runnable {
 		logger.info("RunnableClass Started.");
 
 		RunnableTest running1 = new RunnableTest("Jack");
-		RunnableTest running2 = new RunnableTest("Rose");
+		//RunnableTest running2 = new RunnableTest("Rose");
 		Thread t1 = new Thread(running1);
-		Thread t2 = new Thread(running2);
+		//Thread t2 = new Thread(running2);
 		Thread t11 = new Thread(running1);
 
 		// 同时启动，观察两线程的交错输出（抢占System.out资源）；

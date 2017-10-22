@@ -2223,3 +2223,12 @@
 2017-10-17 21:39:31 INFO  DaemonTest:37 - [Thread[Thread-0,5,main]] 运行中
 2017-10-17 21:39:31 INFO  DaemonTest:55 - [Thread[Thread-1,5,main]]守护进程运行中……
 2017-10-17 21:39:32 INFO  DaemonTest:23 - 程序运行结束！
+2017-10-19 19:23:24 INFO  NotifyAllTest:43 - 多个监控线程（父）已经启动
+2017-10-19 19:23:24 INFO  NotifyAllTest:28 - [Thread[Thread-1,5,main]] 等待一个子线程执行结果，[RUNNABLE]
+2017-10-19 19:23:24 INFO  NotifyAllTest:46 - 单个子线程启动
+2017-10-19 19:23:24 INFO  NotifyAllTest:28 - [Thread[Thread-3,5,main]] 等待一个子线程执行结果，[RUNNABLE]
+2017-10-19 19:23:24 INFO  NotifyAllTest:28 - [Thread[Thread-2,5,main]] 等待一个子线程执行结果，[RUNNABLE]
+2017-10-19 19:23:25 INFO  Calculator:22 - 执行完成！
+2017-10-19 19:23:25 INFO  NotifyAllTest:32 - [Thread[Thread-2,5,main]]发现，被监控的子线程执行完成
+2017-10-19 19:23:25 INFO  NotifyAllTest:32 - [Thread[Thread-3,5,main]]发现，被监控的子线程执行完成
+2017-10-19 19:23:25 INFO  NotifyAllTest:32 - [Thread[Thread-1,5,main]]发现，被监控的子线程执行完成
