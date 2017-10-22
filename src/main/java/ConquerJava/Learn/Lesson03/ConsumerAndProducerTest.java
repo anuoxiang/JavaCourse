@@ -21,7 +21,7 @@ public class ConsumerAndProducerTest {
 
 	public static void main(String[] args) {
 		Warehouse w = new ConsumerAndProducerTest().new Warehouse(20);
-		for (int i = 0; i < 10; i++) {
+		for (int i = 0; i < 100; i++) {
 			// 随机一个10 以内数字
 			int opt = new Random().nextInt(5) - 10;
 			if (opt > 0)
