@@ -2232,3 +2232,111 @@
 2017-10-19 19:23:25 INFO  NotifyAllTest:32 - [Thread[Thread-2,5,main]]发现，被监控的子线程执行完成
 2017-10-19 19:23:25 INFO  NotifyAllTest:32 - [Thread[Thread-3,5,main]]发现，被监控的子线程执行完成
 2017-10-19 19:23:25 INFO  NotifyAllTest:32 - [Thread[Thread-1,5,main]]发现，被监控的子线程执行完成
+2017-10-22 09:47:27 INFO  DaemonTest:74 - 生产了：1，当前库存：21
+2017-10-22 09:47:27 INFO  DaemonTest:74 - 生产了：2，当前库存：23
+2017-10-22 09:47:27 INFO  DaemonTest:74 - 生产了：4，当前库存：27
+2017-10-22 09:47:27 INFO  DaemonTest:74 - 生产了：3，当前库存：30
+2017-10-22 09:47:27 INFO  DaemonTest:74 - 生产了：3，当前库存：33
+2017-10-22 09:47:27 INFO  DaemonTest:74 - 生产了：3，当前库存：36
+2017-10-22 09:47:27 INFO  DaemonTest:74 - 生产了：2，当前库存：38
+2017-10-22 09:47:27 INFO  DaemonTest:74 - 生产了：1，当前库存：39
+2017-10-22 09:47:27 INFO  DaemonTest:74 - 生产了：2，当前库存：41
+2017-10-22 09:47:27 INFO  DaemonTest:74 - 生产了：3，当前库存：44
+2017-10-22 09:47:27 INFO  DaemonTest:74 - 生产了：1，当前库存：45
+2017-10-22 09:47:27 INFO  DaemonTest:74 - 生产了：2，当前库存：47
+2017-10-22 09:47:27 INFO  DaemonTest:74 - 生产了：4，当前库存：51
+2017-10-22 09:47:27 INFO  DaemonTest:74 - 生产了：2，当前库存：53
+2017-10-22 09:47:27 INFO  DaemonTest:74 - 生产了：4，当前库存：57
+2017-10-22 09:47:27 INFO  DaemonTest:74 - 生产了：4，当前库存：61
+2017-10-22 09:47:27 INFO  DaemonTest:74 - 生产了：4，当前库存：65
+2017-10-22 09:47:27 INFO  DaemonTest:74 - 生产了：3，当前库存：68
+2017-10-22 09:47:27 INFO  DaemonTest:74 - 生产了：3，当前库存：71
+2017-10-22 09:47:27 INFO  DaemonTest:74 - 生产了：3，当前库存：74
+2017-10-22 09:47:27 INFO  DaemonTest:74 - 生产了：4，当前库存：78
+2017-10-22 09:47:27 INFO  DaemonTest:74 - 生产了：2，当前库存：80
+2017-10-22 09:47:27 INFO  DaemonTest:74 - 生产了：2，当前库存：82
+2017-10-22 09:47:27 INFO  DaemonTest:74 - 生产了：2，当前库存：84
+2017-10-22 09:47:27 INFO  DaemonTest:74 - 生产了：1，当前库存：85
+2017-10-22 09:47:27 INFO  DaemonTest:74 - 生产了：1，当前库存：86
+2017-10-22 09:47:27 INFO  DaemonTest:74 - 生产了：2，当前库存：88
+2017-10-22 09:47:27 INFO  DaemonTest:74 - 生产了：3，当前库存：91
+2017-10-22 09:47:27 INFO  DaemonTest:74 - 生产了：2，当前库存：93
+2017-10-22 09:47:27 INFO  DaemonTest:74 - 生产了：2，当前库存：95
+2017-10-22 09:47:27 INFO  DaemonTest:74 - 生产了：1，当前库存：96
+2017-10-22 09:47:27 INFO  DaemonTest:74 - 生产了：1，当前库存：97
+2017-10-22 09:47:27 INFO  DaemonTest:74 - 生产了：2，当前库存：99
+2017-10-22 09:47:27 WARN  DaemonTest:66 - 当前库存：99，即将生产：2，超过承载库存100，暂停执行
+2017-10-22 09:47:27 WARN  DaemonTest:66 - 当前库存：99，即将生产：3，超过承载库存100，暂停执行
+2017-10-22 09:47:27 WARN  DaemonTest:66 - 当前库存：99，即将生产：3，超过承载库存100，暂停执行
+2017-10-22 09:47:27 WARN  DaemonTest:66 - 当前库存：99，即将生产：2，超过承载库存100，暂停执行
+2017-10-22 09:47:27 WARN  DaemonTest:66 - 当前库存：99，即将生产：3，超过承载库存100，暂停执行
+2017-10-22 09:47:27 WARN  DaemonTest:66 - 当前库存：99，即将生产：4，超过承载库存100，暂停执行
+2017-10-22 09:47:27 WARN  DaemonTest:66 - 当前库存：99，即将生产：2，超过承载库存100，暂停执行
+2017-10-22 09:47:27 INFO  DaemonTest:74 - 生产了：1，当前库存：100
+2017-10-22 09:47:27 WARN  DaemonTest:66 - 当前库存：100，即将生产：2，超过承载库存100，暂停执行
+2017-10-22 09:47:27 WARN  DaemonTest:66 - 当前库存：100，即将生产：3，超过承载库存100，暂停执行
+2017-10-22 09:47:27 WARN  DaemonTest:66 - 当前库存：100，即将生产：2，超过承载库存100，暂停执行
+2017-10-22 09:47:27 WARN  DaemonTest:66 - 当前库存：100，即将生产：4，超过承载库存100，暂停执行
+2017-10-22 09:47:27 WARN  DaemonTest:66 - 当前库存：100，即将生产：3，超过承载库存100，暂停执行
+2017-10-22 09:47:27 WARN  DaemonTest:66 - 当前库存：100，即将生产：2，超过承载库存100，暂停执行
+2017-10-22 09:47:27 WARN  DaemonTest:66 - 当前库存：100，即将生产：3，超过承载库存100，暂停执行
+2017-10-22 09:47:27 WARN  DaemonTest:66 - 当前库存：100，即将生产：3，超过承载库存100，暂停执行
+2017-10-22 09:47:27 WARN  DaemonTest:66 - 当前库存：100，即将生产：2，超过承载库存100，暂停执行
+2017-10-22 09:48:40 INFO  DaemonTest:74 - 生产了：2，当前库存：22
+2017-10-22 09:48:40 INFO  DaemonTest:74 - 生产了：1，当前库存：23
+2017-10-22 09:48:40 INFO  DaemonTest:74 - 生产了：4，当前库存：27
+2017-10-22 09:48:40 INFO  DaemonTest:74 - 生产了：2，当前库存：29
+2017-10-22 09:48:40 INFO  DaemonTest:74 - 生产了：4，当前库存：33
+2017-10-22 09:48:40 INFO  DaemonTest:74 - 生产了：3，当前库存：36
+2017-10-22 09:48:40 INFO  DaemonTest:74 - 生产了：2，当前库存：38
+2017-10-22 09:48:40 INFO  DaemonTest:74 - 生产了：3，当前库存：41
+2017-10-22 09:48:40 INFO  DaemonTest:74 - 生产了：1，当前库存：42
+2017-10-22 09:48:40 INFO  DaemonTest:74 - 生产了：4，当前库存：46
+2017-10-22 09:48:40 INFO  DaemonTest:74 - 生产了：4，当前库存：50
+2017-10-22 09:48:40 INFO  DaemonTest:74 - 生产了：2，当前库存：52
+2017-10-22 09:48:40 INFO  DaemonTest:74 - 生产了：2，当前库存：54
+2017-10-22 09:48:40 INFO  DaemonTest:74 - 生产了：1，当前库存：55
+2017-10-22 09:48:40 INFO  DaemonTest:74 - 生产了：4，当前库存：59
+2017-10-22 09:48:40 INFO  DaemonTest:74 - 生产了：4，当前库存：63
+2017-10-22 09:48:40 INFO  DaemonTest:74 - 生产了：4，当前库存：67
+2017-10-22 09:48:40 INFO  DaemonTest:74 - 生产了：1，当前库存：68
+2017-10-22 09:48:40 INFO  DaemonTest:74 - 生产了：2，当前库存：70
+2017-10-22 09:48:40 INFO  DaemonTest:74 - 生产了：3，当前库存：73
+2017-10-22 09:48:40 INFO  DaemonTest:74 - 生产了：3，当前库存：76
+2017-10-22 09:48:40 INFO  DaemonTest:74 - 生产了：2，当前库存：78
+2017-10-22 09:48:40 INFO  DaemonTest:74 - 生产了：1，当前库存：79
+2017-10-22 09:48:40 INFO  DaemonTest:74 - 生产了：2，当前库存：81
+2017-10-22 09:48:40 INFO  DaemonTest:74 - 生产了：1，当前库存：82
+2017-10-22 09:48:40 INFO  DaemonTest:74 - 生产了：2，当前库存：84
+2017-10-22 09:48:40 INFO  DaemonTest:74 - 生产了：1，当前库存：85
+2017-10-22 09:48:40 INFO  DaemonTest:74 - 生产了：2，当前库存：87
+2017-10-22 09:48:40 INFO  DaemonTest:74 - 生产了：3，当前库存：90
+2017-10-22 09:48:40 INFO  DaemonTest:74 - 生产了：2，当前库存：92
+2017-10-22 09:48:40 INFO  DaemonTest:74 - 生产了：2，当前库存：94
+2017-10-22 09:48:40 INFO  DaemonTest:74 - 生产了：4，当前库存：98
+2017-10-22 09:48:40 INFO  DaemonTest:74 - 生产了：2，当前库存：100
+2017-10-22 09:48:40 WARN  DaemonTest:66 - 当前库存：100，即将生产：4，超过承载库存100，暂停执行
+2017-10-22 09:48:40 WARN  DaemonTest:66 - 当前库存：100，即将生产：3，超过承载库存100，暂停执行
+2017-10-22 09:48:40 WARN  DaemonTest:66 - 当前库存：100，即将生产：2，超过承载库存100，暂停执行
+2017-10-22 09:54:19 INFO  DaemonTest:45 - [Thread[Thread-0,5,main]] 运行中
+2017-10-22 09:54:19 INFO  DaemonTest:45 - [Thread[Thread-0,5,main]] 运行中
+2017-10-22 09:54:20 INFO  DaemonTest:63 - [Thread[Thread-1,5,main]]守护进程运行中……
+2017-10-22 09:54:20 INFO  DaemonTest:45 - [Thread[Thread-0,5,main]] 运行中
+2017-10-22 09:54:20 INFO  DaemonTest:45 - [Thread[Thread-0,5,main]] 运行中
+2017-10-22 09:54:21 INFO  DaemonTest:63 - [Thread[Thread-1,5,main]]守护进程运行中……
+2017-10-22 09:54:21 INFO  DaemonTest:45 - [Thread[Thread-0,5,main]] 运行中
+2017-10-22 09:54:21 INFO  DaemonTest:45 - [Thread[Thread-0,5,main]] 运行中
+2017-10-22 09:54:22 INFO  DaemonTest:63 - [Thread[Thread-1,5,main]]守护进程运行中……
+2017-10-22 09:54:22 INFO  DaemonTest:45 - [Thread[Thread-0,5,main]] 运行中
+2017-10-22 09:54:22 INFO  DaemonTest:45 - [Thread[Thread-0,5,main]] 运行中
+2017-10-22 09:54:23 INFO  DaemonTest:63 - [Thread[Thread-1,5,main]]守护进程运行中……
+2017-10-22 09:54:23 INFO  DaemonTest:45 - [Thread[Thread-0,5,main]] 运行中
+2017-10-22 09:54:23 INFO  DaemonTest:45 - [Thread[Thread-0,5,main]] 运行中
+2017-10-22 09:54:24 INFO  DaemonTest:63 - [Thread[Thread-1,5,main]]守护进程运行中……
+2017-10-22 09:54:24 INFO  DaemonTest:31 - 程序运行结束！
+2017-10-22 09:54:47 INFO  DaemonTest:30 - 执行完成
+2017-10-22 09:56:28 INFO  DaemonTest:33 - 执行完成
+2017-10-22 09:56:48 INFO  DaemonTest:33 - 执行完成
+2017-10-22 09:57:44 INFO  DaemonTest:33 - 执行完成
+2017-10-22 09:57:55 INFO  DaemonTest:33 - 执行完成
+2017-10-22 09:58:36 INFO  DaemonTest:33 - 执行完成

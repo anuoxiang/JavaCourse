@@ -1,6 +1,10 @@
 package ConquerJava.Learn.Lesson03;
 
+import java.util.Random;
+
 import org.apache.log4j.Logger;
+
+import ConquerJava.Learn.UtilAndHelper;
 
 /**
  * 第三课 Java多线程
@@ -16,7 +20,17 @@ public class ConsumerAndProducerTest {
 	final static Logger logger = Logger.getLogger(DaemonTest.class);
 
 	public static void main(String[] args) {
+		Warehouse w = new ConsumerAndProducerTest().new Warehouse(20);
+		for (int i = 0; i < 10; i++) {
+			// 随机一个10 以内数字
+			int opt = new Random().nextInt(5) - 10;
+			if (opt > 0)
+				new ConsumerAndProducerTest().new Procuder(w, opt).start();
+			else
+				new ConsumerAndProducerTest().new Consumer(w, Math.abs(opt)).start();
+		}
 		
+		logger.info("执行完成");
 	}
 
 	/**
@@ -52,7 +66,7 @@ public class ConsumerAndProducerTest {
 		 */
 		public synchronized void product(int Income) {
 			while (this.CurrentNumber + Income > MAX_SIZE) {
-				logger.warn(String.format("当前库存：%d，即将生产：%d，超过承载库存%d，暂停执行", this.CurrentNumber, Income, MAX_SIZE));
+				logger.info(String.format("当前库存：%d，即将生产：%d，超过承载库存%d，暂停执行", this.CurrentNumber, Income, MAX_SIZE));
 				try {
 					wait();
 				} catch (InterruptedException e) {
@@ -75,7 +89,7 @@ public class ConsumerAndProducerTest {
 		 */
 		public synchronized void consume(int Output) {
 			while (this.CurrentNumber - Output < 0) {
-				logger.warn(String.format("当前库存：%d，即将消费：%d，库存不足，暂停执行", this.CurrentNumber, Output));
+				logger.info(String.format("当前库存：%d，即将消费：%d，库存不足，暂停执行", this.CurrentNumber, Output));
 				try {
 					wait();
 				} catch (InterruptedException e) {
