@@ -4,8 +4,6 @@ import java.util.Random;
 
 import org.apache.log4j.Logger;
 
-import ConquerJava.Learn.UtilAndHelper;
-
 /**
  * 第三课 Java多线程
  *
