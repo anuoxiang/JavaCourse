@@ -15,7 +15,7 @@ import org.apache.log4j.Logger;
  */
 public class ConsumerAndProducerTest {
 	// 日志工具
-	final static Logger logger = Logger.getLogger(DaemonTest.class);
+	final static Logger logger = Logger.getLogger(ConsumerAndProducerTest.class);
 
 	public static void main(String[] args) {
 		Warehouse w = new ConsumerAndProducerTest().new Warehouse(20);
